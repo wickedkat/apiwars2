@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Starjedi;
+    src: url('Starjedi.b20d3d2e.ttf');
+
+}
+
+body {
+    background-image:url('https://starwarsintrocreator.kassellabs.io/bg-stars.41e916d0.png');
+    font-family: 'Roboto', sans-serif;
+}
+
+.table {
+    margin-top: 50px;
+    border: solid 1px goldenrod;
+    font-size: 14px;
+}
+
+.btn-sm {
+    font-size: 12px;
+}
+
+thead {
+    color: goldenrod;
+}
+
+
+.navbar {
+    margin-bottom: 30px;
+    border: solid 3px goldenrod ;
+    border-radius: 20px;
+
+}
+
+.btn {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: Starjedi;
+    color: goldenrod;
+    margin-left: 215px;
+
+}
+
+.voting {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;}
+
+.close:hover {
+     color: #666;
+ }
+
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+}
+
+.modal-contents
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 12px;}
+
+#residents-title {
+    font-family: Starjedi;
+    font-size: 20px;
+    text-decoration:underline overline;
+}
+
+.login-header {
+    font-family: Starjedi;
+    font-size: 20px;
+    text-decoration:underline overline;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#Login {
+    color: goldenrod;
+    padding: 10px;
+    border: solid 1px gold;
+    border-radius: 12px;
+}
+
+#Login:hover {
+    background-color: dimgray;
+    }
+
+
+
+#Register {
+    color: goldenrod;
+    padding: 10px;
+    border: solid 1px gold;
+    border-radius: 12px;
+}
+
+.Logout {
+    color: goldenrod;
+    padding: 10px;
+    border: solid 1px gold;
+    border-radius: 12px;
+    margin-top: 10px;
+    display: none;
+}
+.Logout:hover {
+    background-color: dimgray;
+}
+
+#Register:hover {
+    background-color: dimgray;
+}
+
+input {
+    margin: 15px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.text-invalid {
+    color:red
+}
+
+#hello {
+    padding: 10px;
+    margin: 10px;
+    color: darkgoldenrod;
+    font-family: Starjedi;
+    display: none;
+}
+
+#hello:hover {
+    text-decoration: none;
+}
+
+#statistics {
+    cursor: pointer;
+}
+
+#votes-header {
+    font-family: Starjedi;
+    text-decoration: underline overline;
+    margin-top: 15px;
+}
+
+
+
+

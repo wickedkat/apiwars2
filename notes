@@ -1,0 +1,21 @@
+function Previous() {
+    if (previous == null) {
+        alert('This is the first page')
+    }
+    changePage(previous)
+}
+
+function Next() {
+    if (next === null) {
+        alert('This is the last page')
+    }
+    changePage(next)
+}
+
+function showModalresidents() {
+    document.querySelector('.bg-modal').style.display = "flex";
+}
+
+function closeModalresidents() {
+    document.querySelector('.bg-modal').style.display = "none";
+}
